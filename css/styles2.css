@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+/*
+.padre{
+    position: relative;
+}
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+
+    position: absolute;
+
+}*/
+
+.cuadrado-rojo{
+    background-color: red;
+    width: 480px;
+    height: 553px;
+
+    position: relative;
+    border-radius: 20px;
+}
+
+.cuadrado-azul{
+    background-color: rgb(14, 22, 49);
+    width: 654px;
+    height: 479px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+}
+
+.logo{
+    height: 479px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
+
+.casco{
+    position: absolute;
+    top: 10%;
+    left: -155px;
+}
+
+.title{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0.99;
+}
+.precio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    
+}
+
+.talla{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+section{
+    margin-left: 220px;
+    color: white;
+}
+
+span{
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.chips {
+    border: 1px solid red;
+    
+}
+
+button{
+    background-color: red;
+    border: 1px solid red;
+    padding: 18px 35px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 25px;
+}
